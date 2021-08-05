@@ -1,0 +1,43 @@
+@media (min-width: 768px) {
+.block0 {
+  background:#ccc;
+  margin:0px;
+  width: 400px;
+  margin: 0em 30em
+}
+.block {
+  background:#ccc;
+  margin:0px;
+  width: 300px;
+}
+
+#parent {
+  display:flex;
+  margin: 0em 30em
+}
+.block1 {
+  background:#ccc;
+  margin:0px;
+  width: 100px;
+}
+}
+@media (max-width: 320px) {
+.block0 {
+  background:#ccc;
+  margin:0px;
+  width: 300px;
+ 
+}
+.block {
+  background:#ccc;
+  margin:0px;
+  width: 300px;
+}
+
+
+.block1 {
+  background:#ccc;
+  margin:0px;
+  width: 300px;
+}
+}
