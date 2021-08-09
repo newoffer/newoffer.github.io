@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media screen and (min-width: 769px)  {
  p {
 font-size: 24pt;} 
 body {
@@ -25,11 +25,13 @@ border: 5px solid rgba(0, 0, 0, .4);
 }
 #parent {
   display:flex;
-  margin: 10px 20%
+  margin: 10px 20em
 }
 }
-@media (max-width: 320px) {
- body {
+@media screen and (max-width: 480px)  {
+p {
+font-size: 24pt;} 
+body {
    background-color: #ccc;
 margin: 0px;
   }
@@ -37,8 +39,6 @@ h1 {font-size: 150%;
 background-color:green;
 color: white;
 text-align: center;}
- p {
-font-size: 24pt;} 
 .block {
   margin:10px;
   width: 300px;
@@ -46,7 +46,7 @@ font-size: 24pt;}
 .block1 {
   background:white;
   margin:10px;
-  width: 300px;
+  width: 240px;
  padding-top:30px;
                 padding-right: 30px;
                 padding-bottom: 30px;
