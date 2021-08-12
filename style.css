@@ -1,4 +1,4 @@
-@media screen and (min-width: 769px)  {
+@media screen and (min-width: 490px)  {
  p {
 font-size: 24pt;} 
 body {
@@ -46,7 +46,7 @@ text-align: center;}
 .block1 {
   background:white;
   margin:10px;
-  width: 240px;
+  width: 100%;
  padding-top:30px;
                 padding-right: 30px;
                 padding-bottom: 30px;
