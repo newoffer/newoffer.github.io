@@ -34,7 +34,10 @@ border: 5px solid rgba(0, 0, 0, .4);
 .menu li a:hover{
     color: #FA4A0C;
 }
-.center {text-align: center}
+.center {display: block;
+  margin-left: auto;
+  margin-right: auto;
+text-align: center}
  h2 {
 font-size: 150%;
 color: black;
@@ -56,7 +59,7 @@ border: 5px solid rgba(0, 0, 0, .4);
 .block1 {
 background-image: url('360_07.png');
   margin:0px;
-  width: 330px; 
+  width: 310px; 
 height: 610px
 }
 .block1_2 {
